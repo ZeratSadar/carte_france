@@ -1,0 +1,38 @@
+body{
+  width:100%;  
+}
+h1{
+  text-align:center; 
+}
+#bloc{
+  width:600px;
+  margin:auto; 
+}
+#map {       
+  width:452px;
+  height:503px; 
+  margin-left:70px;
+  margin-top:7.5%;
+}
+#map path {
+  fill:#008080;
+  stroke:#FFF;
+  stroke-width:1;
+  transition: fill 0.3s, stroke 0.3s;
+  cursor: pointer;
+}
+#map path:hover {
+  fill:#556B2F;
+  fill-width: 3;
+  stroke:#556B2F;
+  stroke-width: 3;
+}
+#map .separator {
+  stroke: #000;
+  fill: none;
+  stroke-width:1.5;
+}
+#map .separator:hover {
+  stroke: #ccc;
+  fill: none; 
+}
